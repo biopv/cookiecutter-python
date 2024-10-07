@@ -29,6 +29,6 @@ For additional details or other installation methods, follow installation instru
 
 ## Usage
 
-```cookiecutter https://github.com/petr-volkov/cookiecutter-python```
+```cookiecutter https://github.com/biopv/cookiecutter-python```
 
 ###
