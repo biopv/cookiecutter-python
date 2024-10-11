@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 echo $(pwd)
 
+
 poetry init \
-       --name '{{ cookiecutter.project_name }}' \
+       --name '{{ cookiecutter.project_slug }}' \
        --description '{{ cookiecutter.description }}' \
        --author '{{ cookiecutter.author }}' \
        --license MIT \
@@ -21,7 +22,7 @@ poetry init \
 cat << EOF >> pyproject.toml
 
 [tool.poetry.scripts]
-{{ cookiecutter.project_name }} = '{{ cookiecutter.project_name }}.console.application:main'
+"{{ cookiecutter.project_name }}" = "{{ cookiecutter.project_slug }}.console.application:main"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

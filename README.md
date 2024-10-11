@@ -7,10 +7,10 @@ Some of the features of this template:
 
 1) ```src/``` layout.
 2) [poetry](https://github.com/python-poetry/poetry) for environment managment.
-3) pre-commit hooks for 
-[flake8](https://flake8.pycqa.org/en/latest/), 
-[black](https://github.com/psf/black), 
-[blackened-docs](https://github.com/asottile/blacken-docs), 
+3) pre-commit hooks for
+[flake8](https://flake8.pycqa.org/en/latest/),
+[black](https://github.com/psf/black),
+[blackened-docs](https://github.com/asottile/blacken-docs),
 [mypy](http://mypy-lang.org/),
 [pytest](https://docs.pytest.org/en/7.1.x/) and some others.
 5) strict [mypy](http://mypy-lang.org/) mode.
@@ -20,10 +20,11 @@ Some of the features of this template:
 
   - [poetry](https://github.com/python-poetry/poetry)
   - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+  - [python-slugify](https://github.com/un33k/python-slugify)
 
-### Install
+### Install dependencies using pipx
 
-```pip install poetry && pip install cookiecutter```
+```pipx install poetry cookiecutter python-slugify```
 
 For additional details or other installation methods, follow installation instructions within each package' README.
 

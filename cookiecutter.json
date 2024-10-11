@@ -1,8 +1,9 @@
 {
     "project_name": null,
-    "project_full_name": "",
+    "project_slug": "{{ cookiecutter.project_name | slugify(separator='_') }}",
     "version": "0.1.0",
     "description": "Placeholder",
-    "author": "Your Name",
-    "email": "your.name@pm.me"
+    "author": "",
+    "email": "",
+    "_extensions": ["cookiecutter.extensions.SlugifyExtension"]
 }
