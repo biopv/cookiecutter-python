@@ -20,6 +20,9 @@ poetry init \
 
 cat << EOF >> pyproject.toml
 
+[tool.poetry.scripts]
+{{ cookiecutter.project_name }} = '{{ cookiecutter.project_name }}.console.application:main'
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 log_cli = "true"
